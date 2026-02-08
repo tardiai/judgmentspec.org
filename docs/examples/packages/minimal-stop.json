@@ -1,0 +1,8 @@
+{
+  "id": "pkg-001",
+  "version": "0.1",
+  "decision": "STOP",
+  "meta": {
+    "reason_code": "INSUFFICIENT_CONFIDENCE"
+  }
+}

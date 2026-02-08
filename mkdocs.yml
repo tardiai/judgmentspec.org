@@ -1,0 +1,42 @@
+site_name: JudgmentSpec
+site_url: https://judgmentspec.org/
+repo_url: https://github.com/tardiai/judgmentspec.org.git
+repo_name: judgmentspec.org
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - content.action.edit
+  language: en
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+
+nav:
+  - Home: index.md
+  - Languages:
+      - English: en/index.md
+      - 中文: zh/index.md
+
+  - Releases:
+      - JS-0.1 (Spec Set): releases/JS-0.1/index.md
+
+  - Modules:
+      - JPS (Package Schema):
+          - v0.1: modules/JPS/0.1/index.md
+      - JCP (Closure Protocol):
+          - v0.1: modules/JCP/0.1/index.md
+
+  - Non-normative:
+      - Overview: non-normative/index.md
+      - Architecture: non-normative/architecture.md
+      - MHI-J: non-normative/mhi-j.md
+      - Presentation Spec: non-normative/presentation.md

@@ -1,0 +1,8 @@
+{
+  "spec_set": "JS-0.1",
+  "pinned": {
+    "JPS": "0.1",
+    "JCP": "0.1"
+  },
+  "notes": "Frozen compatibility slice for JudgmentSpec."
+}

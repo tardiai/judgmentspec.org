@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://judgmentspec.org/modules/JPS/0.1/schema.json",
+  "title": "Judgment Package Schema (JPS) v0.1",
+  "type": "object",
+  "required": ["id", "version", "decision"],
+  "properties": {
+    "id": { "type": "string" },
+    "version": { "type": "string", "pattern": "^0\\.1$" },
+    "decision": {
+      "type": "string",
+      "enum": ["STOP", "CONTINUE", "EXECUTE"]
+    },
+    "meta": { "type": "object" }
+  },
+  "additionalProperties": true
+}
