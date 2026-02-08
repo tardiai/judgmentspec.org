@@ -22,21 +22,24 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Languages:
-      - English: en/index.md
-      - 中文: zh/index.md
 
   - Releases:
-      - JS-0.1 (Spec Set): releases/JS-0.1/index.md
+      - Overview: releases/index.md
+      - JS-0.1: releases/JS-0.1/index.md
 
   - Modules:
-      - JPS (Package Schema):
+      - Overview: modules/index.md
+      - JPS:
           - v0.1: modules/JPS/0.1/index.md
-      - JCP (Closure Protocol):
+      - JCP:
           - v0.1: modules/JCP/0.1/index.md
+
+  - Examples:
+      - Overview: examples/index.md
 
   - Non-normative:
       - Overview: non-normative/index.md
       - Architecture: non-normative/architecture.md
       - MHI-J: non-normative/mhi-j.md
-      - Presentation Spec: non-normative/presentation.md
+      - Presentation: non-normative/presentation.md
+

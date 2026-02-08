@@ -1,15 +1,14 @@
-# JS-0.1 — JudgmentSpec Set Manifest
+# Releases (Spec Sets)
 
-This release is a **frozen compatibility slice**.  
-Use this for stable references and integrations.
+Releases are **immutable compatibility snapshots** of JudgmentSpec.
 
-## Pinned Modules
+A release pins specific module versions to provide a stable reference
+for implementers.
 
-- **JPS** (Judgment Package Schema): v0.1  
-- **JCP** (Judgment Closure Protocol): v0.1
+## Available Releases
 
-## Manifest
+- **JS-0.1**  
+  - JPS v0.1  
+  - JCP v0.1
 
-- Download: `manifest.json`
-
-> Modules evolve independently. Releases pin compatible combinations.
+Releases MUST NOT be modified once published.

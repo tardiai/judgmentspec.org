@@ -1,23 +1,50 @@
 # JudgmentSpec
 
-JudgmentSpec is the normative specification set for **judgment structures, closure semantics, and routing/composition**.
+JudgmentSpec is the normative specification set for Judgment Engineering.
+
+It defines canonical structures, protocols, and composition rules
+for judgments that must be **completed, closed, and executed**.
+
+---
 
 ## Scope (Frozen)
 
-JudgmentSpec defines only:
+JudgmentSpec defines **only** the following domains:
 
-1. **Structure** — data schemas and validation rules  
-2. **Protocol** — closure states, transitions, and error semantics  
-3. **Routing & Composition** — selection/dispatch/combination rules for packages
+1. **Structure** — judgment data schemas and validation rules  
+2. **Protocol** — closure semantics and state transitions  
+3. **Routing & Composition** — selection and dispatch of judgment packages
 
-It does **not** define methods, prompts, business decisions, or outcome guarantees.
+JudgmentSpec does **not** define methodologies, prompts, or business outcomes.
 
-## Two Worlds
+---
 
-- **Normative**: MUST be implementable, testable, and verifiable.
-- **Non-normative**: Reference models, explanations, examples, presentation.
+## Language Notice
 
-## Start Here
+JudgmentSpec specifications are **language-agnostic**.
 
-- **Release (stable reference):** [JS-0.1](releases/JS-0.1/index.md)
-- **Modules (independent evolution):** JPS, JCP
+- Normative content is defined by schemas, protocols, and manifests
+- Textual descriptions are explanatory only
+
+---
+
+## 中文说明（非规范性）
+
+JudgmentSpec 是用于「判断工程」的**规范集合**。
+
+它只定义三类内容：
+
+1. 判断结构（数据结构与校验）
+2. 判断完成/终止协议
+3. 判断包的路由与组合规则
+
+所有规范条款以结构与协议为准，  
+文字说明仅用于理解，不构成规范约束。
+
+---
+
+## Getting Started
+
+- **Stable reference:** Releases → JS-0.1  
+- **Modules:** JPS, JCP  
+- **Examples:** Non-normative illustrations only

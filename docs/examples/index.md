@@ -1,10 +1,23 @@
 # Examples (Non-normative)
 
-This section provides illustrative examples for JudgmentSpec.
+This section provides **illustrative examples** for JudgmentSpec.
+
+## Status
+
+All examples in this section are **non-normative**.
 
 Examples:
-- are **non-normative**
-- do **not** define required behavior
-- are intended to clarify valid structures and flows only
+- do not define required behavior
+- do not introduce new rules
+- do not override normative specifications
 
-Implementations MUST follow the normative specifications.
+Implementations MUST follow the normative modules and releases.
+
+## Purpose
+
+Examples are provided to:
+- reduce ambiguity
+- illustrate valid structures
+- clarify protocol flows
+
+They are not tutorials and must not be treated as best practices.
