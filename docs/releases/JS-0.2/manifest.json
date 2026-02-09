@@ -1,0 +1,9 @@
+{
+  "release": "JS-0.2",
+  "status": "draft",
+  "modules": {
+    "JPS": "0.1",
+    "JCP": "0.2"
+  },
+  "notes": "JCP v0.2 frozen. Draft release set; not published."
+}

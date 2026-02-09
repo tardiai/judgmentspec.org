@@ -82,4 +82,11 @@ Such content belongs outside JudgmentSpec.
 
 ---
 
+## Contributing Guidelines
+
+All contributions that affect normative specifications
+MUST comply with the "Normative Specification Development SOP"
+defined in GOVERNANCE.md.
+
+
 Thank you for helping keep JudgmentSpec precise, stable, and implementable.

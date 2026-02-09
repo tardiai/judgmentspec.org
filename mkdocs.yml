@@ -32,10 +32,13 @@ nav:
       - JPS:
           - v0.1: modules/JPS/0.1/index.md
       - JCP:
+          - Overview: modules/JCP/index.md
           - v0.1: modules/JCP/0.1/index.md
+          - v0.2: modules/JCP/0.2/index.md
 
   - Examples:
       - Overview: examples/index.md
+      - closure-stop: examples/flows/closure-stop.md
 
   - Non-normative:
       - Overview: non-normative/index.md
