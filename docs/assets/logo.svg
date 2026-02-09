@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .brand-green { fill: #009873; }
+      .accent-gold { fill: #FFD700; }
+      .text-spec { fill: #009873; font-family: Arial, sans-serif; font-weight: 700; font-size: 48px; }
+    </style>
+  </defs>
+  
+  <!-- 方形背景容器 -->
+  <rect x="40" y="40" width="320" height="320" rx="20" fill="#009873" opacity="0.05"/>
+  
+  <!-- J字母 -->
+  <path class="brand-green" d="
+    M 100,80
+    L 140,80
+    L 140,220
+    Q 140,260 110,280
+    Q 80,300 40,280
+    L 40,240
+    Q 60,250 80,250
+    Q 100,250 100,220
+    Z
+  "/>
+  
+  <!-- E字母 - 完全在对钩内部 -->
+  <path class="brand-green" d="
+    M 170,90
+    L 260,90
+    L 260,115
+    L 205,115
+    L 205,150
+    L 250,150
+    L 250,175
+    L 205,175
+    L 205,210
+    L 260,210
+    L 260,235
+    L 170,235
+  Z
+  "/>
+  
+  <!-- 对钩 -->
+  <path class="accent-gold" d="
+    M 320,120
+    L 350,145
+    L 220,310
+    L 130,220
+    L 155,195
+    L 215,255
+    Z
+  " opacity="0.95"/>
+  
+  <!-- 对钩白色描边 -->
+  <path fill="none" stroke="white" stroke-width="8" stroke-linejoin="round" d="
+    M 155,195
+    L 215,255
+    L 350,145
+  " opacity="0.3"/>
+  
+  <!-- Spec文字 - 紧挨着logo下方，居中 -->
+  <text x="200" y="350" text-anchor="middle" class="text-spec">Spec</text>
+</svg>

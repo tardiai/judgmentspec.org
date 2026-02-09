@@ -1,6 +1,6 @@
 site_name: JudgmentSpec
 site_url: https://judgmentspec.org/
-repo_url: https://github.com/tardiai/judgmentspec.org.git
+repo_url: https://github.com/tardiai/judgmentspec.org
 repo_name: judgmentspec.org
 edit_uri: edit/main/docs/
 
@@ -42,4 +42,25 @@ nav:
       - Architecture: non-normative/architecture.md
       - MHI-J: non-normative/mhi-j.md
       - Presentation: non-normative/presentation.md
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: black
+      accent: indigo
+    - scheme: slate
+      primary: black
+      accent: indigo
+  font:
+    text: Inter
+    code: JetBrains Mono
 
