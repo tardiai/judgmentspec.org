@@ -88,5 +88,29 @@ Elegance and completeness are secondary.
 
 ---
 
+## Normative State Synchronization (Mandatory)
+
+Any normative discussion, planning, or proposal related to JudgmentSpec
+MUST begin by explicitly referencing the current repository state.
+
+This includes, at minimum:
+- The exact module name(s)
+- The version number(s)
+- The concrete file path(s) in this repository
+
+Example:
+- docs/modules/JPS/0.1/index.md
+- docs/modules/JCP/0.1/index.md
+
+Any discussion that does not explicitly reference the existing repository
+state is considered non-binding and MUST NOT result in normative changes.
+
+This rule applies to:
+- Maintainers
+- Contributors
+- External collaborators
+- AI-assisted drafting or review
+
+
 JudgmentSpec evolves deliberately.
 Stability is a feature.

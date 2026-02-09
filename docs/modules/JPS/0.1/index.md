@@ -1,3 +1,10 @@
+---
+Status: Normative
+Version: 0.1
+Frozen: Yes
+Source of Truth: GitHub repository tardiai/judgmentspec.org
+---
+
 # JPS v0.1 — Judgment Package Schema
 
 ## Status

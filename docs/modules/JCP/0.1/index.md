@@ -1,3 +1,10 @@
+---
+Status: Normative
+Version: 0.1
+Frozen: Yes
+Source of Truth: GitHub repository tardiai/judgmentspec.org
+---
+
 # JCP v0.1 — Judgment Closure Protocol
 
 ## Status

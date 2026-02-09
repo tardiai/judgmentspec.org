@@ -1,5 +1,23 @@
 # JudgmentSpec
 
+---
+
+### CURRENT NORMATIVE STATE
+
+The following specifications are currently **normative and frozen**:
+
+- **JPS 0.1** — Judgment Package Schema  
+  Path: `docs/modules/JPS/0.1/`
+
+- **JCP 0.1** — Judgment Closure Protocol  
+  Path: `docs/modules/JCP/0.1/`
+
+All other content on this site is **non-normative**
+unless explicitly stated otherwise.
+
+---
+
+
 JudgmentSpec is the normative specification set for Judgment Engineering.
 
 It defines canonical structures, protocols, and composition rules
