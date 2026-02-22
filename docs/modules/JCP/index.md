@@ -1,2 +1,2 @@
-- JCP 0.2 — Judgment Closure Protocol (MINOR, Frozen)
-- JCP 0.1 — Judgment Closure Protocol
+- JCP 0.2 — Judgment Closure Protocol (MINOR, Frozen) [`link`](./0.2/index.md)
+- JCP 0.1 — Judgment Closure Protocol [`link`](./0.1/index.md)

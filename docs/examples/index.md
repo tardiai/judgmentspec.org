@@ -20,4 +20,8 @@ Examples are provided to:
 - illustrate valid structures
 - clarify protocol flows
 
+## Examples
+1. closure-stop [`examples/flows/closure-stop`](./flows/closure-stop.md)
+   
+
 They are not tutorials and must not be treated as best practices.

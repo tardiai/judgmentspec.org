@@ -10,7 +10,7 @@ The following specifications are currently **normative and frozen**:
   Path: `docs/modules/JPS/0.1/`
 
 - **JCP 0.1** — Judgment Closure Protocol  
-  Path: `docs/modules/JCP/0.1/`
+  Path: `docs/modules/JCP/0.2/`
 
 All other content on this site is **non-normative**
 unless explicitly stated otherwise.

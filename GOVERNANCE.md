@@ -252,6 +252,103 @@ The reconfirmation MUST include:
 No output action is considered valid
 unless this reconfirmation is completed and acknowledged.
 
+## MkDocs Navigation Governance (Mandatory)
+
+This section defines mandatory rules for modifying site navigation
+and content structure under JudgmentSpec.
+
+The purpose is to strictly separate:
+- information architecture (structure)
+- content growth (internal expansion)
+
+---
+
+### Rule 1 — Structural Changes
+
+If a change introduces, removes, or modifies **site structure**,
+the contributor MUST update `mkdocs.yml`.
+
+A change is considered **structural** if it satisfies any of the following:
+
+1. Adds, removes, or renames a **top-level navigation node**
+   (e.g. `Releases`, `Modules`, `Examples`).
+
+2. Adds, removes, or restructures a **directory-level entry point**
+   that is intended to be directly reachable from navigation.
+   - Such directories MUST contain an `index.md`.
+
+3. Changes directory routing or hierarchy
+   (e.g. splitting `modules/` into multiple major sections).
+
+4. Introduces a new page that MUST be directly reachable
+   without traversing internal index pages.
+
+Structural changes are considered **information architecture changes**
+and MUST be made explicit in `mkdocs.yml`.
+
+---
+
+### Rule 2 — Internal Content Changes
+
+If a change adds or modifies **content within an existing structure**,
+the contributor MUST NOT update `mkdocs.yml`.
+
+The following are explicitly considered **internal content changes**:
+
+1. Adding new pages under an existing directory node.
+2. Adding new module versions
+   (e.g. `modules/JCP/0.3/`).
+3. Adding new releases
+   (e.g. `releases/JS-0.3/`).
+4. Adding examples, observations, or non-normative materials.
+
+For internal content changes, contributors MUST:
+- update the corresponding `index.md` file, and
+- add appropriate links within that index.
+
+`mkdocs.yml` MUST remain unchanged.
+
+---
+
+### Rule 3 — Index-First Principle
+
+Every navigable directory MUST have an `index.md`
+that serves as the sole expansion point for internal content.
+
+All internal growth MUST be surfaced through links
+inside the corresponding `index.md`.
+
+Navigation configuration MUST NOT be used
+to enumerate internal content items.
+
+---
+
+### Rule 4 — Modification Gate for mkdocs.yml
+
+Any pull request that modifies `mkdocs.yml`
+MUST explicitly justify the change.
+
+The PR description MUST answer all of the following:
+
+1. What new or modified structural node is introduced?
+2. Why is this change structural rather than internal?
+3. Which `index.md` files serve as the new or updated entry points?
+
+Failure to justify these points renders the change non-compliant.
+
+---
+
+### Rule 5 — Enforcement
+
+Unjustified modifications to `mkdocs.yml`
+MUST be rejected during review.
+
+Content growth that incorrectly modifies navigation
+MUST be reverted and re-applied via index linking.
+
+These rules are mandatory and apply to all contributors,
+including maintainers.
+
 
 JudgmentSpec evolves deliberately.
 Stability is a feature.
