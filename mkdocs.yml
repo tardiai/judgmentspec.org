@@ -22,7 +22,9 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+
   - Baseline: baseline/index.md
+  
   - Releases:
       - Overview: releases/index.md
 

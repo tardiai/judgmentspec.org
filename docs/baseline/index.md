@@ -34,10 +34,10 @@ Defines the formal definition and boundary of Judgment Engineering.
 
 ---
 
-### JE-Terminology v1.0  
+### JE-Terminology v1.1  
 Freezes terminology under JE-BL-1.0.
 
-→ [JE-Terminology v1.0](JE-Terminology-v1.0.md)
+→ [JE-Terminology v1.1](JE-Terminology-v1.1.md)
 
 ---
 
